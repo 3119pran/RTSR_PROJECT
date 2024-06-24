@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FramersActivity"
+    android:background="#C5FDAD">
+
+    <TextView
+        android:id="@+id/farmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/farmer_details"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/farmername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/farmer_name"
+
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <EditText
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/village"
+
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/land"
+
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <Button
+        android:id="@+id/farmerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/submit"
+
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

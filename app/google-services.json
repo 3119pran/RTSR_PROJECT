@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654238426563",
+    "project_id": "farmer-price-app",
+    "storage_bucket": "farmer-price-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654238426563:android:51cfd221fa29b9fe5f8976",
+        "android_client_info": {
+          "package_name": "com.example.farmerpriceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qz5pM3_ZxCv3p3cj3gZwpWsVtsdBgNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

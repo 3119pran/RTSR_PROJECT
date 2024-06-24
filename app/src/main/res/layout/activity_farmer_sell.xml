@@ -1,0 +1,50 @@
+<!-- activity_farmer_sell.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FarmerSell">
+
+    <EditText
+        android:id="@+id/farmername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_farmer_name" />
+
+
+    <EditText
+        android:id="@+id/item_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/enter_item_name" />
+
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="@string/enter_item_quantity"
+
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/farmer_sell_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/sell_item" />
+
+
+    <TextView
+        android:id="@+id/result_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
