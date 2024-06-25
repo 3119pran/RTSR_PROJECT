@@ -1,5 +1,6 @@
 package com.example.farmerpriceapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,13 +18,14 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText emailEditText, passwordEditText;
     private FirebaseAuth mAuth;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        emailEditText = findViewById(R.id.emailEditText);
-        passwordEditText = findViewById(R.id.passwordEditText);
+        emailEditText = findViewById(R.id.emailEditText1);
+        passwordEditText = findViewById(R.id.passwordEditText1);
 
         mAuth = FirebaseAuth.getInstance();
     }
