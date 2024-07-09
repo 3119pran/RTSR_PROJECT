@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <activity
+            android:name=".Delivery_Details"
+            android:exported="false" />
+        <activity
             android:name=".OrderSuccess"
             android:exported="false" />
         <activity
@@ -50,8 +53,9 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
-        <activity android:name=".cartdata"
-            android:exported="false"/>
+        <activity
+            android:name=".cartdata"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

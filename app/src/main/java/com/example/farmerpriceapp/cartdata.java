@@ -42,7 +42,7 @@ public class cartdata extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(cartdata.this, OrderSuccess.class));
+                startActivity(new Intent(cartdata.this, Delivery_Details.class));
 
             }
         });
